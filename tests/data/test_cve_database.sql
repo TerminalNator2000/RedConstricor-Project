@@ -1,0 +1,1 @@
+-- Placeholder test for CVE database

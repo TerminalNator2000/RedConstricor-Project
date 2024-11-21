@@ -1,0 +1,23 @@
+
+version: '3.8'
+services:
+  frontend:
+    build: ./src/frontend
+    ports:
+      - "3000:3000"
+  backend:
+    build: ./src/backend
+    ports:
+      - "5000:5000"
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: redconstrictor
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+volumes:
+  db_data:

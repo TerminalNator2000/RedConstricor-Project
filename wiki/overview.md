@@ -1,0 +1,3 @@
+# Overview
+
+RedConstrictor is a proprietary cybersecurity platform designed to streamline vulnerability identification, penetration testing, and system analysis. It integrates multiple security tools into a unified interface, powered by AI for insightful reporting and recommendations. Built with modularity and scalability in mind, RedConstrictor is an essential tool for cybersecurity professionals.
